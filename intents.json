@@ -1,0 +1,88 @@
+{"intents":[
+    {"tag": "saludos",
+        "patterns":["Hola", "hola", "que onda", "como estas", "Como Estas", "alguien ahi?", "buenos dias", "buenas","\\."],
+        "responses": ["Hola, como estas?", "Hay dias en lo que simplemente existo", "Hola, como te encuentras hoy?"],
+        "context": [""]
+    },
+    {"tag": "despedida",
+        "patterns":["Adios", "adios", "nos vemos", "bye", "hasta luego", "bai", "buenas noches"],
+        "responses": ["Nos vemos!", "Que te vaya bien!", "Hasta la vista","Adios, recuerda si ocupas ayuda llama a 800 911 2000"],
+        "context": [""]
+    },
+    {"tag": "noanswer",
+        "patterns":[],
+        "responses": ["Lo siento, pero no entiendo tu pregunta", "Necesito más informacion", "No te estoy entendiendo"],
+        "context": [""]
+    },
+    {"tag": "consejos salud mental",
+        "patterns":["Me puedes dar un consejo de salud mental?","Como puedo cuidar de mi salud mental?"],
+        "responses": ["Descansa correctamente\\. Acuestate y levantate a la misma hora todos los dias e intenta descansar 8 horas diarias\\.","Realizar algun tipo de actividad fisica de manera regular puede ayudar a mejorar tu estado de animo\\.","Come de forma saludable\\. Manten ina dieta equilibrada\\. Y evita los azucares, el alcohol o la cafeina\\.","Disfruta de tu tiempo libre realizando alguna actividad que te haga sentir bien\\. Manten la mete ocupada\\.","Proyecta pensamiento positivos\\. Gestiona tus pensamientos enfocados a elementos positivos de tu vida y sosten en sentido de la esperanza\\."],
+        "context":[""]
+    },
+    {"tag": "depresion",
+        "patterns":["Que es la depresion?"],
+        "responses": ["La depresión puede causar síntomas graves que afectan cómo se siente, piensa y coordina actividades diarias como dormir, comer o trabajar\\. Es una enfermedad que puede afectar a cualquier persona, sin importar la edad, la raza, los ingresos, la cultura o el nivel educativo\\. Hay investigaciones que sugieren que los factores genéticos, biológicos, ambientales y psicológicos desempeñan una función en la depresión\\."],
+        "context":[""]
+    },
+    {"tag": "sintomas de depresion",
+        "patterns":["Cuales son los sintomas de la depresion?","Sintomas de depresion"],
+        "responses": ["Sentimientos persistentes de tristeza, ansiedad o vacío, desesperanza o pesimismo, iritabilidad, frustacion o intranquilidad, culpabilidad, inutilidad o impotencia\\.\nPerdida de interes o placer en las actividades\\.\nFatiga, disminucion de energia o sensacion de que esta mas lento\\.\nDificultad para concentrarse, recordar o tomar demasiado\\. \nCambios en el apetito o en el peso sin haberlos planificado\\."],
+        "context":[""]
+    },
+    {"tag": "sintomas de ansiedad",
+        "patterns":["Cuales son los sintomas de la ansiedad?","sintomas de ansiedad"],
+        "responses": ["Sensacion de nerviosismo, agitacion o tension\\.\nSensacion de peligro inminente, panico o catastrofe\\.\nAumento del ritmo cardiaco\\.\nRespiracion aceleradda\\.\nSudoracion\\.\nTemblores\\.\nSensacion de debilidad o cansancio\\.\nProblemas para concentrarse\\.\nTener la necesidad de evitar las situaciones que generan ansiedad\\."],
+        "context":[""]
+    },
+    {"tag": "transtornos de ansiedad",
+        "patterns":["Cuales son los sintomas de la ansiedad?","sintomas de ansiedad"],
+        "responses": ["Agorafobia, transtorno de ansiedad debido a una enfermedad, trastorno de ansiedad generalizada, trastorno de panico, mutismo selectivo, trastorno de ansiedad por separacion, fobia social, fobias especificas\\."],
+        "context":[""]
+    },
+    {"tag": "agorofobia",
+        "patterns":["Que es agorafobia?"],
+        "responses": ["Es un tipo de transtorno de ansiedad en el que teme a lugares y situaciones que pueden causarte panico o hacerte sentir atrapado, indefenso o avergonzado y a menudo intentas evitarlos\\."],
+        "context":[""]
+    },
+    {"tag": "trantorno de ansiedad por enfermedad",
+        "patterns":["Que es trantorno de ansiedad por enfermedad?"],
+        "responses": ["Incluye sintomas de ansiedad o panico intensos que son directamente causados por problema de salud fisico\\."],
+        "context":[""]
+    },
+    {"tag": "trantorno de ansiedad generalizada",
+        "patterns":["Que es trantorno de ansiedad generalizada?"],
+        "responses": ["Se caracterizada por una ansiedad y una preocupacion persistente y excesivas por actividades o eventos, incluso asuntos comunes de rutina\\."],
+        "context":[""]
+    },
+    {"tag": "trantorno de panico",
+        "patterns":["Que es trantorno de panico?"],
+        "responses": ["Implica episodios repetidos de sensaciones repentinas de ansiedad y miedo o terror intensos que alcanzan un nivel maximo en minutos\\. Puedes tener sensaciones de una catastrofe inminente, dificultad para respirar, dolor en el pecho o latidos rapidos, fuertes o como aleteos\\."],
+        "context":[""]
+    },
+    {"tag": "mutismo selectivo",
+        "patterns":["Que es el mutismo selectivo?"],
+        "responses": ["Es una incapacidad contaste que tienen los niños para hablar en ciertas situaciones, como en la escuela, incluso cuando pueden hablar en otras situaciones, como en el hogar con miembros cercanos de la familia\\."],
+        "context":[""]
+    },
+    {"tag": "trantorno por ansiedad por separacion",
+        "patterns":["Que es trantorno por ansiedad por separacion?"],
+        "responses": ["Es un trastorno de la niñez que se caracteriza por una ansiedad que es excesiva para el nivel de desarrollo del niño y que se relaciona con la separación de los padres u otras personas que cumplen una función paternal\\."],
+        "context":[""]
+    },
+    {"tag": "fobia social",
+        "patterns":["Que es la fobia social?"],
+        "responses": ["Implica altos niveles de ansiedad, miedo o rechazo a situaciones sociales debido a sentimientos de vergüenza, inseguridad y preocupación por ser juzgado o percibido de manera negativa por otras personas\\."],
+        "context":[""]
+    },
+    {"tag": "fobias especificas",
+        "patterns":["Que son las fobias especificas?"],
+        "responses": ["Se caracterizan por una notable ansiedad cuando la persona se ve expuesta a un objeto o situación específicos, y un deseo por evitarlos\\. En algunas personas, las fobias provocan ataques de pánico\\."],
+        "context":[""]
+    },
+    {"tag": "trastorno de ansiedad inducido por sustancias",
+        "patterns":["Que es trastorno de ansiedad inducido por sustancias?"],
+        "responses": ["Se caracteriza por síntomas de ansiedad o pánico intensos que son el resultado directo del uso indebido de drogas, como tomar medicamentos, estar expuesto a una sustancia tóxica o tener abstinencia a causa de las drogas\\."],
+        "context":[""]
+    }   
+]
+}
