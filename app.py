@@ -71,7 +71,7 @@ def start(update, context):
     #print(update)
     logger.info(f"El usuario {update.effective_user['id']}, a iniciado una conversación")
     name = update.effective_user['first_name']
-    update.message.reply_text(f"Hola {name}, yo soy FilosoraptorBot!")
+    update.message.reply_text(f"Hola {name}, yo soy PsicBot")
 
 def responder(update, context):
     user_id = update.effective_user['id']
