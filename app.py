@@ -6,7 +6,7 @@ import nltk
 import pickle
 import numpy as np
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
-from telebot.credentials import bot_token
+from credentials import bot_token
 from tensorflow.keras.models import load_model
 from nltk.stem import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
