@@ -69,7 +69,7 @@ def predecirRespuesta(mensaje):
 
 def start(update, context):
     #print(update)
-    logger.info(f"El usuario {update.effective_user['id']}, a iniciado una conversación")
+    logger.info(f"El usuario {update.effective_user['id']} inicio conversacion.")
     name = update.effective_user['first_name']
     update.message.reply_text(f"Hola {name}, yo soy PsicBot")
 
