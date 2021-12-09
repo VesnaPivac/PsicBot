@@ -1,7 +1,7 @@
 {"intents":[
     {"tag": "saludos",
         "patterns":["Hola", "hola", "que onda", "como estas", "Como Estas", "alguien ahi?", "buenos dias", "buenas","\\."],
-        "responses": ["Hola, como estas?", "Hay dias en lo que simplemente existo", "Hola, como te encuentras hoy?"],
+        "responses": ["Hola, como estas?", "Hola, como te encuentras hoy?"],
         "context": [""]
     },
     {"tag": "despedida",
