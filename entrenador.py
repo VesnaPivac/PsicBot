@@ -24,16 +24,16 @@ for intento in intentos['intents']:
     for patrones in intento['patterns']:
         #tokenizamos cada palabra de nuestras preguntas
         p = nltk.word_tokenize(patrones)
-        #Agregamos w a nuestras palabras
+        #Agregamos p a nuestras palabras
         palabras.extend(p)
-        #añadimos a documents la dupla de (palabra tokenizada, nombre de la clase que pertenece)
+        #añadimos a documentos la dupla de (palabra tokenizada, nombre de la clase que pertenece)
         documentos.append((p, intento['tag']))
 
-        #agregamos los tags a classes para categorizarlas
+        #agregamos los tags a tags para categorizarlas
         if intento['tag'] not in tags:
             tags.append(intento['tag'])
 
-#limpiamos las palbras. En este caso solo son los caracteres '?' y '!' y ordenamos
+#limpiamos las palabras. En este caso solo son los caracteres '?' y '!' y ordenamos
 palabras = [lemmatizer.lemmatize(p.lower()) for p in palabras if p not in ignorar]
 palabras = sorted(list(set(palabras)))
 tags = sorted(list(set(tags)))
